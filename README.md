@@ -1,64 +1,37 @@
 # GMLA-UNet
 
-Official implementation of:
+**A Dual-Branch U-Shaped Network with Gated Wide-Mixing Convolutions and Mamba-Like Linear Attention for Medical Image Segmentation**
 
-**GMLA-UNet: A Dual-Branch U-Shaped Network with Gated Wide-Mixing Convolutions and Mamba-Like Linear Attention for Medical Image Segmentation**
+Official repository for the paper *"GMLA-UNet: A Dual-Branch U-Shaped Network with Gated Wide-Mixing Convolutions and Mamba-Like Linear Attention for Medical Image Segmentation."*
 
-> The source code will be released after the paper is accepted.
+GMLA-UNet is an efficient dual-branch U-shaped network for medical image segmentation that combines the local precision of gated wide-mixing convolutions with the global modeling capability of Mamba-like linear attention, achieving a strong balance between segmentation accuracy and computational efficiency.
 
-## Overview
+## Code Availability
 
-GMLA-UNet is a dual-branch U-shaped network designed for medical image segmentation. The model combines gated wide-mixing convolutions with Mamba-like linear attention to improve both local feature extraction and long-range dependency modeling.
+> [!NOTE]
+> The source code, pretrained models, and usage instructions are **not yet publicly available**. They will be released in this repository **after the paper is accepted for publication**.
 
-This repository is currently maintained as the official project page. Code, training scripts, configuration files, pretrained weights, and detailed reproduction instructions will be made publicly available after paper acceptance.
+Upon release, this repository will provide the model implementation, training and evaluation scripts, pretrained weights, and instructions for reproduction.
 
-## Key Ideas
-
-- **Dual-branch U-shaped architecture** for complementary local and global feature modeling.
-- **Gated wide-mixing convolutions** to enhance spatial feature interaction with efficient convolutional operations.
-- **Mamba-like linear attention** for scalable long-range dependency modeling.
-- **Medical image segmentation focus**, targeting accurate and efficient dense prediction.
-
-## Repository Status
-
-At this stage, the repository contains only project information.
-
-Planned release content:
-
-- Training and evaluation code
-- Model implementation
-- Dataset preprocessing scripts
-- Configuration files
-- Pretrained weights
-- Inference examples
-- Reproduction instructions
-- Citation information
-
-## News
-
-- Code will be released after paper acceptance.
-- Pretrained models and experiment logs will be provided when available.
-
-## Installation
-
-Installation instructions will be added after the code release.
-
-## Usage
-
-Training, evaluation, and inference commands will be added after the code release.
-
-## Results
-
-Experimental results will be updated after the paper is accepted.
+To be notified when the code becomes available, please **Watch** or **Star** this repository.
 
 ## Citation
 
-If you find this work useful, please consider citing our paper.
+If you find this work useful for your research, please consider citing it. The full citation will be updated once the paper is published.
 
 ```bibtex
-@article{gmlaunet2026,
-  title={GMLA-UNet: A Dual-Branch U-Shaped Network with Gated Wide-Mixing Convolutions and Mamba-Like Linear Attention for Medical Image Segmentation},
-  author={Your Name and Co-authors},
-  journal={To appear},
-  year={2026}
+@article{GMLAUNet,
+  title   = {GMLA-UNet: A Dual-Branch U-Shaped Network with Gated Wide-Mixing Convolutions and Mamba-Like Linear Attention for Medical Image Segmentation},
+  author  = {},
+  journal = {},
+  year    = {}
 }
+```
+
+## Contact
+
+For questions regarding the paper, please open an issue in this repository.
+
+## License
+
+The license will be specified upon code release.
